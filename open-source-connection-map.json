@@ -1,6 +1,6 @@
 {
-  "version": "1.2.0",
-  "description": "Canonical OSS ↔ product hub connection map for cheshire-terminal-agents. Product hubs include /agents, /cli, /eliza-agents, /skills, /skills-store, /arena, /registry, /mcp. Local cheshire-terminal-main surfaces are resolved when present (not vendored). ACP + A2A live in this package.",
+  "version": "1.2.1",
+  "description": "Canonical OSS \u2194 product hub connection map for cheshire-terminal-agents. Product hubs include /agents, /cli, /eliza-agents, /skills, /skills-store, /arena, /registry, /mcp. Local cheshire-terminal-main surfaces are resolved when present (not vendored). ACP + A2A live in this package.",
   "productHubs": {
     "agents": "https://cheshireterminal.ai/agents",
     "elizaAgents": "https://cheshireterminal.ai/eliza-agents",
@@ -9,7 +9,8 @@
     "skillsStore": "https://cheshireterminal.ai/skills-store",
     "arena": "https://cheshireterminal.ai/arena",
     "registry": "https://cheshireterminal.ai/registry",
-    "mcp": "https://cheshireterminal.ai/mcp"
+    "mcp": "https://cheshireterminal.ai/mcp",
+    "clawdComputeAgents": "https://clawdcompute.us/agents"
   },
   "github": {
     "agents": "https://github.com/Solizardking/agents",
@@ -62,6 +63,12 @@
       "to": "https://cheshireterminal.ai/skills",
       "githubFrom": "https://github.com/Solizardking/agents",
       "githubTo": "https://github.com/Solizardking/skills"
+    },
+    "agentsToClawdCompute": {
+      "from": "https://github.com/themusebook/clawd-agents",
+      "to": "https://clawdcompute.us/agents",
+      "catalog": "https://clawdcompute.us/agents/catalog.json",
+      "manifest": "https://clawdcompute.us/agents/manifest.json"
     }
   },
   "repos": [

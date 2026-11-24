@@ -74,6 +74,7 @@ npx cheshire-terminal-cli agents:list
 | Site surface | Role | This package |
 |--------------|------|--------------|
 | **[cheshireterminal.ai/agents](https://cheshireterminal.ai/agents)** | Live agent hub + forge + catalog API | Source of truth: `agents-catalog.json`, `ct-agents catalog`, design TUI |
+| **[clawdcompute.us/agents](https://clawdcompute.us/agents)** | Clawd Compute agent directory — paired surface for this repo | This repo's `agents-catalog.json` is served at [clawdcompute.us/agents/catalog.json](https://clawdcompute.us/agents/catalog.json) and `agents-manifest.json` at [clawdcompute.us/agents/manifest.json](https://clawdcompute.us/agents/manifest.json) |
 | **[cheshireterminal.ai/cli](https://cheshireterminal.ai/cli)** | Official site CLI docs / install | Companion npm: `cheshire-terminal-cli` · local map via `ct-agents connect` |
 | **[cheshireterminal.ai/eliza-agents](https://cheshireterminal.ai/eliza-agents)** | Eliza studio | `eliza-agents/` + nested `eliza/` fork |
 | **[cheshireterminal.ai/agents/forge](https://cheshireterminal.ai/agents/forge)** | Dual-chain identity forge | Design/skills/DNA surfaces in this repo |
